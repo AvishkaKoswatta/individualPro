@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hqs0x13fBLtn6I2vlkduGSJhyDdPRdNJTMPcYjBV7dCbEwphjgWPnrUERzVOdo9yeEJtEQ/e6MCdjaDxm5+nvg==",
+  "success": true,
+  "projectFilePath": "E:\\Users\\Avishka\\LECTURE_MATERIALS\\semester 3\\Computer Engineering\\EE3151 Programming project\\Project\\DesktopApp\\DesktopApp\\DesktopApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Avishka Koswaththa\\.nuget\\packages\\communitytoolkit.mvvm\\8.1.0\\communitytoolkit.mvvm.8.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

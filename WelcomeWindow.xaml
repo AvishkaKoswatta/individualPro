@@ -1,0 +1,27 @@
+﻿<Window x:Class="DesktopApp.WelcomeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesktopApp"
+        mc:Ignorable="d"
+        Title="Welcome" Height="450" Width="800"
+        Background="#2e3137" Foreground="White">
+    
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Margin="10">
+            <TextBlock Text="Welcome to Your System!" FontSize="24" FontWeight="Bold"/>
+            <TextBlock Text="Student Data System" Margin="0 10 0 0" FontWeight="Bold"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Margin="10">
+            <Button Content="Get Started" Width="120" Height="40" FontSize="16" FontWeight="Bold" 
+                    Background="#545d6a" Foreground="White" Click="Button_Click"/>
+            <Image Source="/Model/Images/gradhat.png" Width="90" Height="60" Margin="0 20 0 0" />
+        </StackPanel>
+    </Grid>
+</Window>
